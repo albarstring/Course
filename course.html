@@ -1,0 +1,598 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>
+        Course Categories and Cards
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <style>
+        /* Custom arrow for details summary */
+        details>summary::-webkit-details-marker {
+            display: none;
+        }
+
+        details[open]>summary>svg {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+
+<body class="bg-white font-sans text-gray-800">
+    <div class="max-w-7xl mx-auto px-4 py-8 flex flex-col md:flex-row gap-6">
+        <details class="w-full md:w-72 bg-[#F3F3FA] rounded-lg p-4" open="">
+            <summary class="cursor-pointer list-none flex justify-between items-center text-gray-700 font-semibold text-sm select-none">
+                Kategori
+                <svg aria-hidden="true" class="w-4 h-4 text-gray-500 transition-transform duration-300" fill="none"
+                    stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round">
+                    </path>
+                </svg>
+            </summary>
+
+            <form class="mt-3 space-y-1 text-xs text-gray-600 font-normal">
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300    rounded" type="checkbox" />
+                    Web Programming
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Mobile Programming
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Fullstack Development
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Backend Development
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    UI / UX
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Product Management
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Quality Assurance
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Digital Marketing
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Cyber Security
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Career Development
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Tech Entrepreneur
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Freelancer
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Content Creator
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Academic Mentoring
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Data
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Dev Ops
+                </label>
+                <label class="flex items-center gap-2">
+                    <input class="w-3.5 h-3.5 border-gray-300 rounded" type="checkbox" />
+                    Game Development
+                </label>
+            </form>
+        </details>
+        
+        <div class="flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Repeat 6 cards -->
+            <section class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img alt="Orange-red themed banner with text 'Web Development' and a mobile app interface"
+                    class="w-full h-44 object-cover rounded-t-xl" height="180" loading="lazy"
+                    src="https://storage.googleapis.com/a1aa/image/47918c67-068f-4ed7-73cb-ea909ff30b10.jpg"
+                    width="400" />
+                <div class="p-4">
+                    <span
+                        class="inline-block bg-[#FF3B3B] text-white text-[9px] font-semibold px-2 py-[2px] rounded-md mb-2">
+                        50% OFF
+                    </span>
+                    <h3 class="font-semibold text-base leading-tight mb-1">
+                        Laravel : Pemula sampai Mahir
+                    </h3>
+                    <p class="text-xs text-gray-600 mb-3">
+                        Mbah Bregas
+                    </p>
+                    <div class="flex items-center gap-4 text-gray-500 text-xs mb-3">
+                        <div class="flex items-center gap-1">
+                            <i class="fas fa-video">
+                            </i>
+                            <span>
+                                23 videos
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <i class="far fa-clock">
+                            </i>
+                            <span>
+                                4 hr, 30min
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-xs text-gray-400 line-through mb-1">
+                        <h1>Rp. 120.000</h1>
+                    </div>
+                    <div class="text-blue-700 font-extrabold text-lg">
+                        <h1>Rp. 99.000</h1>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img alt="Orange-red themed banner with text 'Web Development' and a mobile app interface"
+                    class="w-full h-44 object-cover rounded-t-xl" height="180" loading="lazy"
+                    src="https://storage.googleapis.com/a1aa/image/47918c67-068f-4ed7-73cb-ea909ff30b10.jpg"
+                    width="400" />
+                <div class="p-4">
+                    <span
+                        class="inline-block bg-[#FF3B3B] text-white text-[9px] font-semibold px-2 py-[2px] rounded-md mb-2 hover:bg-[#F242145]">
+                        50% OFF
+                    </span>
+                    <h3 class="font-semibold text-base leading-tight mb-1">
+                        Laravel : Pemula sampai Mahir
+                    </h3>
+                    <p class="text-xs text-gray-600 mb-3">
+                        Mbah Bregas
+                    </p>
+                    <div class="flex items-center gap-4 text-gray-500 text-xs mb-3">
+                        <div class="flex items-center gap-1">
+                            <i class="fas fa-video">
+                            </i>
+                            <span>
+                                23 videos
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <i class="far fa-clock">
+                            </i>
+                            <span>
+                                4 hr, 30min
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-xs text-gray-400 line-through mb-1">
+                        <h1>Rp. 120.000</h1>
+                    </div>
+                    <div class="text-blue-700 font-extrabold text-lg">
+                        <h1>Rp. 99.000</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img alt="Orange-red themed banner with text 'Web Development' and a mobile app interface"
+                    class="w-full h-44 object-cover rounded-t-xl" height="180" loading="lazy"
+                    src="https://storage.googleapis.com/a1aa/image/47918c67-068f-4ed7-73cb-ea909ff30b10.jpg"
+                    width="400" />
+                <div class="p-4">
+                    <span
+                        class="inline-block bg-[#FF3B3B] text-white text-[9px] font-semibold px-2 py-[2px] rounded-md mb-2">
+                        50% OFF
+                    </span>
+                    <h3 class="font-semibold text-base leading-tight mb-1">
+                        Laravel : Pemula sampai Mahir
+                    </h3>
+                    <p class="text-xs text-gray-600 mb-3">
+                        Mbah Bregas
+                    </p>
+                    <div class="flex items-center gap-4 text-gray-500 text-xs mb-3">
+                        <div class="flex items-center gap-1">
+                            <i class="fas fa-video">
+                            </i>
+                            <span>
+                                23 videos
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <i class="far fa-clock">
+                            </i>
+                            <span>
+                                4 hr, 30min
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-xs text-gray-400 line-through mb-1">
+                        <h1>Rp. 120.000</h1>
+                    </div>
+                    <div class="text-blue-700 font-extrabold text-lg">
+                        <h1>Rp. 99.000</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img alt="Orange-red themed banner with text 'Web Development' and a mobile app interface"
+                    class="w-full h-44 object-cover rounded-t-xl" height="180" loading="lazy"
+                    src="https://storage.googleapis.com/a1aa/image/47918c67-068f-4ed7-73cb-ea909ff30b10.jpg"
+                    width="400" />
+                <div class="p-4">
+                    <span
+                        class="inline-block bg-[#FF3B3B] text-white text-[9px] font-semibold px-2 py-[2px] rounded-md mb-2">
+                        50% OFF
+                    </span>
+                    <h3 class="font-semibold text-base leading-tight mb-1">
+                        Laravel : Pemula sampai Mahir
+                    </h3>
+                    <p class="text-xs text-gray-600 mb-3">
+                        Mbah Bregas
+                    </p>
+                    <div class="flex items-center gap-4 text-gray-500 text-xs mb-3">
+                        <div class="flex items-center gap-1">
+                            <i class="fas fa-video">
+                            </i>
+                            <span>
+                                23 videos
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <i class="far fa-clock">
+                            </i>
+                            <span>
+                                4 hr, 30min
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-xs text-gray-400 line-through mb-1">
+                        <h1>Rp. 120.000</h1>
+                    </div>
+                    <div class="text-blue-700 font-extrabold text-lg">
+                        <h1>Rp. 99.000</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img alt="Orange-red themed banner with text 'Web Development' and a mobile app interface"
+                    class="w-full h-44 object-cover rounded-t-xl" height="180" loading="lazy"
+                    src="https://storage.googleapis.com/a1aa/image/47918c67-068f-4ed7-73cb-ea909ff30b10.jpg"
+                    width="400" />
+                <div class="p-4">
+                    <span
+                        class="inline-block bg-[#FF3B3B] text-white text-[9px] font-semibold px-2 py-[2px] rounded-md mb-2">
+                        50% OFF
+                    </span>
+                    <h3 class="font-semibold text-base leading-tight mb-1">
+                        Laravel : Pemula sampai Mahir
+                    </h3>
+                    <p class="text-xs text-gray-600 mb-3">
+                        Mbah Bregas
+                    </p>
+                    <div class="flex items-center gap-4 text-gray-500 text-xs mb-3">
+                        <div class="flex items-center gap-1">
+                            <i class="fas fa-video">
+                            </i>
+                            <span>
+                                23 videos
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <i class="far fa-clock">
+                            </i>
+                            <span>
+                                4 hr, 30min
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-xs text-gray-400 line-through mb-1">
+                        <h1>Rp. 120.000</h1>
+                    </div>
+                    <div class="text-blue-700 font-extrabold text-lg">
+                        <h1>Rp. 99.000</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img alt="Orange-red themed banner with text 'Web Development' and a mobile app interface"
+                    class="w-full h-44 object-cover rounded-t-xl" height="180" loading="lazy"
+                    src="https://storage.googleapis.com/a1aa/image/47918c67-068f-4ed7-73cb-ea909ff30b10.jpg"
+                    width="400" />
+                <div class="p-4">
+                    <span
+                        class="inline-block bg-[#FF3B3B] text-white text-[9px] font-semibold px-2 py-[2px] rounded-md mb-2">
+                        50% OFF
+                    </span>
+                    <h3 class="font-semibold text-base leading-tight mb-1">
+                        Laravel : Pemula sampai Mahir
+                    </h3>
+                    <p class="text-xs text-gray-600 mb-3">
+                        Mbah Bregas
+                    </p>
+                    <div class="flex items-center gap-4 text-gray-500 text-xs mb-3">
+                        <div class="flex items-center gap-1">
+                            <i class="fas fa-video">
+                            </i>
+                            <span>
+                                23 videos
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <i class="far fa-clock">
+                            </i>
+                            <span>
+                                4 hr, 30min
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-xs text-gray-400 line-through mb-1">
+                        <h1>Rp. 120.000</h1>
+                    </div>
+                    <div class="text-blue-700 font-extrabold text-lg">
+                        <h1>Rp. 99.000</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img alt="Orange-red themed banner with text 'Web Development' and a mobile app interface"
+                    class="w-full h-44 object-cover rounded-t-xl" height="180" loading="lazy"
+                    src="https://storage.googleapis.com/a1aa/image/47918c67-068f-4ed7-73cb-ea909ff30b10.jpg"
+                    width="400" />
+                <div class="p-4">
+                    <span
+                        class="inline-block bg-[#FF3B3B] text-white text-[9px] font-semibold px-2 py-[2px] rounded-md mb-2">
+                        50% OFF
+                    </span>
+                    <h3 class="font-semibold text-base leading-tight mb-1">
+                        Laravel : Pemula sampai Mahir
+                    </h3>
+                    <p class="text-xs text-gray-600 mb-3">
+                        Mbah Bregas
+                    </p>
+                    <div class="flex items-center gap-4 text-gray-500 text-xs mb-3">
+                        <div class="flex items-center gap-1">
+                            <i class="fas fa-video">
+                            </i>
+                            <span>
+                                23 videos
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <i class="far fa-clock">
+                            </i>
+                            <span>
+                                4 hr, 30min
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-xs text-gray-400 line-through mb-1">
+                        <h1>Rp. 120.000</h1>
+                    </div>
+                    <div class="text-blue-700 font-extrabold text-lg">
+                        <h1>Rp. 99.000</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img alt="Orange-red themed banner with text 'Web Development' and a mobile app interface"
+                    class="w-full h-44 object-cover rounded-t-xl" height="180" loading="lazy"
+                    src="https://storage.googleapis.com/a1aa/image/47918c67-068f-4ed7-73cb-ea909ff30b10.jpg"
+                    width="400" />
+                <div class="p-4">
+                    <span
+                        class="inline-block bg-[#FF3B3B] text-white text-[9px] font-semibold px-2 py-[2px] rounded-md mb-2">
+                        50% OFF
+                    </span>
+                    <h3 class="font-semibold text-base leading-tight mb-1">
+                        Laravel : Pemula sampai Mahir
+                    </h3>
+                    <p class="text-xs text-gray-600 mb-3">
+                        Mbah Bregas
+                    </p>
+                    <div class="flex items-center gap-4 text-gray-500 text-xs mb-3">
+                        <div class="flex items-center gap-1">
+                            <i class="fas fa-video">
+                            </i>
+                            <span>
+                                23 videos
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <i class="far fa-clock">
+                            </i>
+                            <span>
+                                4 hr, 30min
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-xs text-gray-400 line-through mb-1">
+                        <h1>Rp. 120.000</h1>
+                    </div>
+                    <div class="text-blue-700 font-extrabold text-lg">
+                        <h1>Rp. 99.000</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img alt="Orange-red themed banner with text 'Web Development' and a mobile app interface"
+                    class="w-full h-44 object-cover rounded-t-xl" height="180" loading="lazy"
+                    src="https://storage.googleapis.com/a1aa/image/47918c67-068f-4ed7-73cb-ea909ff30b10.jpg"
+                    width="400" />
+                <div class="p-4">
+                    <span
+                        class="inline-block bg-[#FF3B3B] text-white text-[9px] font-semibold px-2 py-[2px] rounded-md mb-2">
+                        50% OFF
+                    </span>
+                    <h3 class="font-semibold text-base leading-tight mb-1">
+                        Laravel : Pemula sampai Mahir
+                    </h3>
+                    <p class="text-xs text-gray-600 mb-3">
+                        Mbah Bregas
+                    </p>
+                    <div class="flex items-center gap-4 text-gray-500 text-xs mb-3">
+                        <div class="flex items-center gap-1">
+                            <i class="fas fa-video">
+                            </i>
+                            <span>
+                                23 videos
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <i class="far fa-clock">
+                            </i>
+                            <span>
+                                4 hr, 30min
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-xs text-gray-400 line-through mb-1">
+                        <h1>Rp. 120.000</h1>
+                    </div>
+                    <div class="text-blue-700 font-extrabold text-lg">
+                        <h1>Rp. 99.000</h1>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img alt="Orange-red themed banner with text 'Web Development' and a mobile app interface"
+                    class="w-full h-44 object-cover rounded-t-xl" height="180" loading="lazy"
+                    src="https://storage.googleapis.com/a1aa/image/47918c67-068f-4ed7-73cb-ea909ff30b10.jpg"
+                    width="400" />
+                <div class="p-4">
+                    <span
+                        class="inline-block bg-[#FF3B3B] text-white text-[9px] font-semibold px-2 py-[2px] rounded-md mb-2">
+                        50% OFF
+                    </span>
+                    <h3 class="font-semibold text-base leading-tight mb-1">
+                        Laravel : Pemula sampai Mahir
+                    </h3>
+                    <p class="text-xs text-gray-600 mb-3">
+                        Mbah Bregas
+                    </p>
+                    <div class="flex items-center gap-4 text-gray-500 text-xs mb-3">
+                        <div class="flex items-center gap-1">
+                            <i class="fas fa-video">
+                            </i>
+                            <span>
+                                23 videos
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <i class="far fa-clock">
+                            </i>
+                            <span>
+                                4 hr, 30min
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-xs text-gray-400 line-through mb-1">
+                        <h1>Rp. 120.000</h1>
+                    </div>
+                    <div class="text-blue-700 font-extrabold text-lg">
+                        <h1>Rp. 99.000</h1>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img alt="Orange-red themed banner with text 'Web Development' and a mobile app interface"
+                    class="w-full h-44 object-cover rounded-t-xl" height="180" loading="lazy"
+                    src="https://storage.googleapis.com/a1aa/image/47918c67-068f-4ed7-73cb-ea909ff30b10.jpg"
+                    width="400" />
+                <div class="p-4">
+                    <span
+                        class="inline-block bg-[#FF3B3B] text-white text-[9px] font-semibold px-2 py-[2px] rounded-md mb-2">
+                        50% OFF
+                    </span>
+                    <h3 class="font-semibold text-base leading-tight mb-1">
+                        Laravel : Pemula sampai Mahir
+                    </h3>
+                    <p class="text-xs text-gray-600 mb-3">
+                        Mbah Bregas
+                    </p>
+                    <div class="flex items-center gap-4 text-gray-500 text-xs mb-3">
+                        <div class="flex items-center gap-1">
+                            <i class="fas fa-video">
+                            </i>
+                            <span>
+                                23 videos
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <i class="far fa-clock">
+                            </i>
+                            <span>
+                                4 hr, 30min
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-xs text-gray-400 line-through mb-1">
+                        <h1>Rp. 120.000</h1>
+                    </div>
+                    <div class="text-blue-700 font-extrabold text-lg">
+                        <h1>Rp. 99.000</h1>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img alt="Orange-red themed banner with text 'Web Development' and a mobile app interface"
+                    class="w-full h-44 object-cover rounded-t-xl" height="180" loading="lazy"
+                    src="https://storage.googleapis.com/a1aa/image/47918c67-068f-4ed7-73cb-ea909ff30b10.jpg"
+                    width="400" />
+                <div class="p-4">
+                    <span
+                        class="inline-block bg-[#FF3B3B] text-white text-[9px] font-semibold px-2 py-[2px] rounded-md mb-2">
+                        50% OFF
+                    </span>
+                    <h3 class="font-semibold text-base leading-tight mb-1">
+                        Laravel : Pemula sampai Mahir
+                    </h3>
+                    <p class="text-xs text-gray-600 mb-3">
+                        Mbah Bregas
+                    </p>
+                    <div class="flex items-center gap-4 text-gray-500 text-xs mb-3">
+                        <div class="flex items-center gap-1">
+                            <i class="fas fa-video">
+                            </i>
+                            <span>
+                                23 videos
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <i class="far fa-clock">
+                            </i>
+                            <span>
+                                4 hr, 30min
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-xs text-gray-400 line-through mb-1">
+                        <h1>Rp. 120.000</h1>
+                    </div>
+                    <div class="text-blue-700 font-extrabold text-lg">
+                        <h1>Rp. 99.000</h1>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
